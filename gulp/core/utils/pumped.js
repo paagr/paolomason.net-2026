@@ -8,14 +8,14 @@
  */
 module.exports = function (achievement) {
 	var exclamations = [
-		'Sweet',
-		'Awesome',
-		'Epic',
-		'Wow',
-		'High Five',
-		'Yay',
-		'YEAH!',
-		'Booyah'
+		'🍬 Sweet',
+		'🤩 Awesome',
+		'💥 Epic',
+		'😲 Wow',
+		'🙌 High Five',
+		'🥳 Yay',
+		'💪 YEAH!',
+		'🎯 Booyah'
 	];
 
 	var randomIndex = Math.floor(Math.random() * exclamations.length);
