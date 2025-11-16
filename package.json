@@ -5,6 +5,10 @@
   "author": "Paolo Mason",
   "authorURI": "https://paolomason.net",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paagr/paolomason.net-2026.git"
+  },
   "keywords": [
     "wordpress",
     "theme",
