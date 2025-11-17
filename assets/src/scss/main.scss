@@ -9,8 +9,9 @@
 // @import "vendors/myvendor";
 
 // base
-@import "base/fonts",
-        "base/base";
+@import "base/base";
+@import "base/reset";
+@import "base/fonts";
 
 // layout
 @import "layout/header",

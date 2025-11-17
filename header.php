@@ -13,17 +13,9 @@
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
 
-		<header id="masthead" class="site-header">
+		<header id="masthead" class="site-header c-header">
 			<div class="site-branding">
-				<?php
-				if (is_front_page() || is_home()) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
-				<?php
-				endif;
-				?>
-
+				<div class="site-title"><a class="h1" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></div>
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation">
